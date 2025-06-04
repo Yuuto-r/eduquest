@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".Notification">
+
+    <!-- CardView container with rounded corners and elevation -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        android:background="@color/white">
+
+        <!-- RecyclerView for notifications -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:padding="12dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- TextView shown when there are no notifications -->
+    <TextView
+        android:id="@+id/emptyNotificationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No notifications yet"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="#888888"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+</FrameLayout>

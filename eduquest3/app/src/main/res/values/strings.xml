@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">eduquest</string>
+    <string name="default_web_client_id">517743302379-gparm3un15otti8cfir74kjt6ee5b9qd.apps.googleusercontent.com </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    >
+
+</resources>

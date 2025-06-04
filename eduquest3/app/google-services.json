@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "517743302379",
+    "firebase_url": "https://eduquest-f8300-default-rtdb.firebaseio.com",
+    "project_id": "eduquest-f8300",
+    "storage_bucket": "eduquest-f8300.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517743302379:android:fb919bb598ffe4913e50ae",
+        "android_client_info": {
+          "package_name": "com.example.eduquest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517743302379-gparm3un15otti8cfir74kjt6ee5b9qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_crBNo4VhD9704anuBJ9ljxgNQBCweMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517743302379-gparm3un15otti8cfir74kjt6ee5b9qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517743302379:android:e1a2fdd30636b7783e50ae",
+        "android_client_info": {
+          "package_name": "com.example.realtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517743302379-gparm3un15otti8cfir74kjt6ee5b9qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_crBNo4VhD9704anuBJ9ljxgNQBCweMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517743302379-gparm3un15otti8cfir74kjt6ee5b9qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

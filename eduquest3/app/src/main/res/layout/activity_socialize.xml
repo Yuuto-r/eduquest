@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".Socialize"
+    android:background="#FFFFFF">
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F9F9F9" />
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:background="#EEEEEE"
+        android:padding="4dp"
+        android:weightSum="4"
+        android:elevation="4dp">
+
+        <ImageButton
+            android:id="@+id/btnProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/account_circle"
+            android:background="@android:color/transparent"
+            android:contentDescription="Profile"
+            android:scaleType="centerInside"
+            android:padding="12dp" />
+
+        <ImageButton
+            android:id="@+id/btnNotifications"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_notification"
+        android:background="@android:color/transparent"
+        android:contentDescription="Notifications"
+        android:scaleType="centerInside"
+        android:padding="12dp" />
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_back"
+            android:background="@android:color/transparent"
+            android:contentDescription="Back"
+            android:scaleType="centerInside"
+            android:padding="12dp" />
+
+        <ImageButton
+            android:id="@+id/btnReload"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_reload"
+            android:background="@android:color/transparent"
+            android:contentDescription="Reload"
+            android:scaleType="centerInside"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</LinearLayout>
